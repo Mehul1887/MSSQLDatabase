@@ -1,0 +1,28 @@
+﻿CREATE TABLE [nan].[FamilyPaymentHistory] (
+    [FamilyPaymentHistoryId]   BIGINT          IDENTITY (1, 1) NOT NULL,
+    [FamilyPaymentHistoryName] NVARCHAR (100)  NULL,
+    [FamilyDetailsId]          BIGINT          NULL,
+    [FamilySubscriptionId]     BIGINT          NULL,
+    [FamilySubscriptionAmount] DECIMAL (18, 2) NULL,
+    [IsSuccessful]             BIT             NULL,
+    [CouponCodeId]             BIGINT          NULL,
+    [CouponCode]               NVARCHAR (50)   NULL,
+    [CouponDiscount]           DECIMAL (18)    NULL,
+    [PaymentFailCode]          NVARCHAR (50)   NULL,
+    [PaymentFailDescription]   NVARCHAR (500)  NULL,
+    [PaymentTypeId]            BIGINT          NULL,
+    [ReceiptNumber]            NVARCHAR (50)   NULL,
+    [CreatedOn]                DATETIME        CONSTRAINT [DF_FamilyPaymentHistory_CreatedOn] DEFAULT (getdate()) NOT NULL,
+    [CreatedBy]                BIGINT          NOT NULL,
+    [UpdatedOn]                DATETIME        NULL,
+    [UpdatedBy]                BIGINT          NULL,
+    [DeletedOn]                DATETIME        NULL,
+    [DeletedBy]                BIGINT          NULL,
+    [IsDeleted]                BIT             CONSTRAINT [DF_FamilyPaymentHistory_IsDeleted] DEFAULT ((0)) NOT NULL,
+    [FinalAmount]              DECIMAL (18)    NULL,
+    CONSTRAINT [PK_FamilyPaymentHistory] PRIMARY KEY CLUSTERED ([FamilyPaymentHistoryId] ASC),
+    CONSTRAINT [FK_FamilyPaymentHistory_CouponCode] FOREIGN KEY ([CouponCodeId]) REFERENCES [nan].[CouponCode] ([CouponCodeId]),
+    CONSTRAINT [FK_FamilyPaymentHistory_FamilyDetails] FOREIGN KEY ([FamilyDetailsId]) REFERENCES [nan].[FamilyDetails] ([FamilyDetailsId]),
+    CONSTRAINT [FK_FamilyPaymentHistory_FamilySubscription] FOREIGN KEY ([FamilySubscriptionId]) REFERENCES [nan].[FamilySubscription] ([FamilySubscriptionId])
+);
+

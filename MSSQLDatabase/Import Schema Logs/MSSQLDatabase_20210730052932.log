@@ -1,0 +1,78 @@
+7/30/2021 5:29:32 AM	This log contains information about the import schema operation into project 'MSSQLDatabase' on computer 'dvs-kubernetsvm' by user 'kcs'.
+7/30/2021 5:29:36 AM	Import of database schema has started.
+7/30/2021 5:29:53 AM	Gathering database options
+7/30/2021 5:29:53 AM	Gathering users
+7/30/2021 5:29:53 AM	Gathering roles
+7/30/2021 5:29:53 AM	Gathering application roles
+7/30/2021 5:29:53 AM	Gathering role memberships
+7/30/2021 5:29:53 AM	Gathering filegroups
+7/30/2021 5:29:53 AM	Gathering full-text catalogs
+7/30/2021 5:29:53 AM	Gathering assemblies
+7/30/2021 5:29:53 AM	Gathering certificates
+7/30/2021 5:29:53 AM	Gathering asymmetric keys
+7/30/2021 5:29:53 AM	Gathering symmetric keys
+7/30/2021 5:29:53 AM	Gathering encrypted symmetric keys
+7/30/2021 5:29:53 AM	Gathering schemas
+7/30/2021 5:29:54 AM	Gathering XML schema collections
+7/30/2021 5:29:54 AM	Gathering user-defined data types
+7/30/2021 5:29:54 AM	Gathering user-defined types
+7/30/2021 5:29:54 AM	Gathering table types
+7/30/2021 5:29:54 AM	Gathering unique keys for table types
+7/30/2021 5:29:54 AM	Gathering primary keys for table types
+7/30/2021 5:29:54 AM	Gathering indexes for table types
+7/30/2021 5:29:55 AM	Gathering check constraints for table types
+7/30/2021 5:29:55 AM	Gathering default constraints for table types
+7/30/2021 5:29:55 AM	Gathering partition functions
+7/30/2021 5:29:55 AM	Gathering partition schemes
+7/30/2021 5:29:55 AM	Gathering functions
+7/30/2021 5:29:55 AM	Gathering encrypted functions
+7/30/2021 5:29:55 AM	Gathering aggregates
+7/30/2021 5:29:55 AM	Gathering procedures
+7/30/2021 5:29:55 AM	Gathering encrypted procedures
+7/30/2021 5:29:55 AM	Gathering tables
+7/30/2021 5:29:56 AM	Gathering primary keys
+7/30/2021 5:29:56 AM	Gathering unique constraints
+7/30/2021 5:29:56 AM	Gathering foreign keys
+7/30/2021 5:29:56 AM	Gathering default constraints
+7/30/2021 5:29:56 AM	Gathering check constraints
+7/30/2021 5:29:56 AM	Gathering views
+7/30/2021 5:29:56 AM	Gathering encrypted views
+7/30/2021 5:29:56 AM	Gathering indexes
+7/30/2021 5:29:56 AM	Gathering statistics
+7/30/2021 5:29:56 AM	Gathering full-text index stoplists
+7/30/2021 5:29:56 AM	Gathering search property lists
+7/30/2021 5:29:56 AM	Gathering search properties
+7/30/2021 5:29:56 AM	Gathering full-text indexes
+7/30/2021 5:29:56 AM	Gathering column store indexes
+7/30/2021 5:29:56 AM	Gathering spatial indexes
+7/30/2021 5:29:56 AM	Gathering XML indexes
+7/30/2021 5:29:56 AM	Gathering Selective XML indexes
+7/30/2021 5:29:56 AM	Gathering encrypted triggers
+7/30/2021 5:29:56 AM	Gathering triggers
+7/30/2021 5:29:56 AM	Gathering encrypted and clr ddl triggers
+7/30/2021 5:29:56 AM	Gathering ddl triggers
+7/30/2021 5:29:56 AM	Gathering synonyms
+7/30/2021 5:29:56 AM	Gathering defaults
+7/30/2021 5:29:56 AM	Gathering data constraint uddt bindings
+7/30/2021 5:29:56 AM	Gathering rules
+7/30/2021 5:29:56 AM	Gathering data constraint uddt bindings
+7/30/2021 5:29:56 AM	Gathering message types
+7/30/2021 5:29:56 AM	Gathering queues
+7/30/2021 5:29:56 AM	Gathering contracts
+7/30/2021 5:29:56 AM	Gathering services
+7/30/2021 5:29:56 AM	Gathering event notifications
+7/30/2021 5:29:56 AM	Gathering remote service bindings
+7/30/2021 5:29:56 AM	Gathering broker priorities
+7/30/2021 5:29:56 AM	Gathering signatures
+7/30/2021 5:29:56 AM	Gathering data compression options
+7/30/2021 5:29:56 AM	Gathering sequence types
+7/30/2021 5:29:56 AM	Gathering database permissions
+7/30/2021 5:29:56 AM	Gathering extended properties
+7/30/2021 5:29:59 AM	Gathering credentials
+7/30/2021 5:29:59 AM	Gathering logins
+7/30/2021 5:29:59 AM	Gathering server audits
+7/30/2021 5:30:03 AM	Scanning project for duplicate elements
+7/30/2021 5:30:03 AM	Finished duplicate element processing
+7/30/2021 5:30:05 AM	Finished importing database.
+7/30/2021 5:30:05 AM	A summary of the import was saved to the following location: C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\Import Schema Logs\MSSQLDatabase_20210730052932.log
+7/30/2021 5:30:05 AM	Click Finish to continue...

@@ -1,0 +1,6 @@
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\bin\Debug\MSSQLDatabase.dacpac
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\bin\Debug\MSSQLDatabase.dll
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\bin\Debug\MSSQLDatabase.pdb
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\obj\Debug\MSSQLDatabase.sqlproj.AssemblyReference.cache
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\obj\Debug\MSSQLDatabase.dll
+C:\Users\kcs\source\repos\MSSQLDatabase\MSSQLDatabase\obj\Debug\MSSQLDatabase.pdb

@@ -1,0 +1,26 @@
+﻿CREATE TABLE [nan].[HomePageContentMaster] (
+    [HomePageContentMasterId]   INT             IDENTITY (1, 1) NOT NULL,
+    [HomePageContentMasterName] NVARCHAR (100)  NULL,
+    [BannerTitle]               NVARCHAR (4000) NULL,
+    [AboutNannyShare]           NVARCHAR (4000) NULL,
+    [HowItWorks1]               NVARCHAR (250)  NULL,
+    [HowItWorks2]               NVARCHAR (250)  NULL,
+    [HowItWorks3]               NVARCHAR (250)  NULL,
+    [HowItWorks4]               NVARCHAR (250)  NULL,
+    [HowItWorks5]               NVARCHAR (250)  NULL,
+    [BenefitTitle1]             NVARCHAR (250)  NULL,
+    [BenefitTitle2]             NVARCHAR (250)  NULL,
+    [BenefitTitle3]             NVARCHAR (250)  NULL,
+    [BenefitText1]              NVARCHAR (250)  NULL,
+    [BenefitText2]              NVARCHAR (250)  NULL,
+    [BenefitText3]              NVARCHAR (250)  NULL,
+    [CreatedOn]                 DATETIME        NULL,
+    [CreatedBy]                 BIGINT          NULL,
+    [UpdatedOn]                 DATETIME        NULL,
+    [UpdatedBy]                 BIGINT          NULL,
+    [DeletedOn]                 DATETIME        NULL,
+    [DeletedBy]                 BIGINT          NULL,
+    [IsDeleted]                 BIT             NULL,
+    CONSTRAINT [PK_HomePageContentMaster] PRIMARY KEY CLUSTERED ([HomePageContentMasterId] ASC)
+);
+

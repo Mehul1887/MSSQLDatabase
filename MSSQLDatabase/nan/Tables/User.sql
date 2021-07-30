@@ -1,0 +1,25 @@
+﻿CREATE TABLE [nan].[User] (
+    [Id]           BIGINT         IDENTITY (1, 1) NOT NULL,
+    [FirstName]    NVARCHAR (50)  NOT NULL,
+    [SurName]      NVARCHAR (50)  NOT NULL,
+    [MobileNo]     NVARCHAR (50)  NOT NULL,
+    [EmailID]      NVARCHAR (50)  NOT NULL,
+    [UserName]     NVARCHAR (50)  NOT NULL,
+    [Password]     NVARCHAR (100) NOT NULL,
+    [Address]      NVARCHAR (500) NULL,
+    [RoleId]       BIGINT         NULL,
+    [IsActive]     BIT            CONSTRAINT [DF_User_IsActive] DEFAULT ((1)) NULL,
+    [IsLogin]      BIT            CONSTRAINT [DF_User_IsLogin] DEFAULT ((0)) NULL,
+    [ProfileImage] NVARCHAR (500) NULL,
+    [CreatedOn]    DATETIME       CONSTRAINT [DF_User_CreatedOn] DEFAULT (getdate()) NULL,
+    [CreatedBy]    BIGINT         NULL,
+    [UpdatedOn]    DATETIME       NULL,
+    [UpdatedBy]    BIGINT         NULL,
+    [DeletedOn]    DATETIME       NULL,
+    [DeletedBy]    BIGINT         NULL,
+    [IsDeleted]    BIT            CONSTRAINT [DF_User_IsDeleted] DEFAULT ((0)) NOT NULL,
+    [UserType]     VARCHAR (50)   NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_User_Role] FOREIGN KEY ([RoleId]) REFERENCES [nan].[Role] ([Id])
+);
+
